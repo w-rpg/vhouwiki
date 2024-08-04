@@ -1,5 +1,5 @@
 {
-    "description": "VhiddlyWiki",
+    "description": "VhouWRPG",
     "plugins": [
         "tiddlywiki/tiddlyweb",
 		"tiddlywiki/filesystem",
