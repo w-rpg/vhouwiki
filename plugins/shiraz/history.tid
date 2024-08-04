@@ -1,0 +1,20 @@
+tags: 
+title: $:/plugins/kookma/shiraz/history
+type: text/vnd.tiddlywiki
+
+Full change log:  [[https://kookma.github.io/TW-Shiraz/#ChangeLog]]
+
+* ''2.7.1'' -- 2022.12.17 -- update to Tiddlywiki 5.2.4, few bug fixes
+* ''2.6.9'' -- 2022.10.17 -- improved Node Explorer, and task Explorer
+* ''2.6.1'' -- 2022.09.27 -- new subplug Formatter, better task manager
+* ''2.5.0'' -- 2022.08.02 -- new data block, updated to Tiddlywiki 5.2.3
+* ''2.4.4'' -- 2021.09.19 -- added css class for tbl-expand customization
+* ''2.4.2'' -- 2021.09.10 -- quick table with bunch of column formatting
+* ''2.3.3'' -- 2021.05.20 -- small bug fixes in switch palette
+* ''2.3.1'' -- 2021.05.19 -- tbl-linktype template to be used for generating node-explorer
+* ''2.3.0'' -- 2021.05.10 -- switch palette for dim/dark and light palette selection
+* ''2.2.2'' -- 2021.04.22 -- several issues fixed for pagination, notebook and image classes
+* ''2.2.0'' -- 2021.02.26 -- updated to TW 5.1.23 and pagination added to dynamic tables
+* ''2.1.1'' -- 2020.03.25 -- slider macro with initial status
+* ''2.1.0'' -- 2020.03.23 -- stable release on TW-5.1.22pre
+* ''1.0.0'' -- 2018.10.05 -- first public release

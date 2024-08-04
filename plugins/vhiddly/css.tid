@@ -1,0 +1,33 @@
+title: $:/plugins/vhou-atroph/vhiddly/css
+creator: Natalie
+tags: [[$:/tags/Stylesheet]]
+modifier: Natalie
+
+/*Images*/
+.img-inline-right {
+  float: right;
+  display: block;
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.flag {
+  height: 14px;
+  display: inline;
+}
+
+
+/*Spoilers*/
+spoiler {
+  color: black;
+  background: black;
+}
+
+spoiler:hover {
+  color: <<colour foreground>>;
+  background: none;
+}

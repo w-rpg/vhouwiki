@@ -1,0 +1,73 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/organization
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.organization(img:"" other_names:"None" type:"Unknown" status:"Unknown" size:"Unknown" members:"<ul></ul>" goal:"<ul></ul>" subsidiaries:"<ul></ul>" allies:"<ul></ul>" enemies:"<ul></ul>")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Other Names' data='<<other_names>>'/>
+<$infobox.builder.row head='Type' data='<<type>>'/>
+<$infobox.builder.row head='Status' data='<<status>>'/>
+<$infobox.builder.row head='Number of Members' data='<<size>>'/>
+<$infobox.builder.row head='Notable Members' data='<<members>>'/>
+<$infobox.builder.row head='Goal' data='<<goal>>'/>
+<$infobox.builder.section head='Relationships'/>
+<$infobox.builder.row head='Subsidiaries' data='<<subsidiaries>>'/>
+<$infobox.builder.row head='Allies' data='<<allies>>'/>
+<$infobox.builder.row head='Enemies' data='<<enemies>>'/>
+"/>
+\end
+
+<$infobox.organization
+img = ""
+other_names = "Toon Resistance"
+type = "Military"
+status = "Active"
+creation = "April 19th, 2003"
+members = "<ul>
+<li>Flippy Doggenbottom</li>
+</ul>"
+goal = "<ul>
+<li>Stop the Cogs</li>
+</ul>"
+subsidiaries = "<ul>
+<li>Sellbot Task Force</li>
+</ul>"
+allies = "<ul>
+<li>Gag Shops</li>
+</ul>"
+enemies = "<ul>
+<li>The Cogs</li>
+</ul>"
+/>
+
+This page is the infobox widget for organization infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for an organization on your page: 
+``
+<$infobox.organization
+img = ""
+other_names = "Toon Resistance"
+type = "Military"
+status = "Active"
+creation = "April 19th, 2003"
+members = "<ul>
+<li>Flippy Doggenbottom</li>
+</ul>"
+goal = "<ul>
+<li>Stop the Cogs</li>
+</ul>"
+subsidiaries = "<ul>
+<li>Sellbot Task Force</li>
+</ul>"
+allies = "<ul>
+<li>Gag Shops</li>
+</ul>"
+enemies = "<ul>
+<li>The Cogs</li>
+</ul>"
+/>
+``

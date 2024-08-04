@@ -1,0 +1,43 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/locality
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.locality(img:"" flag:"None" nicknames:"None" demonym:"None" region:"None" specialty:"None" incorporation:"None" dissolution:"None")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Flag' data='<<flag>>'/>
+<$infobox.builder.row head='Nicknames' data='<<nicknames>>'/>
+<$infobox.builder.row head='Demonym' data='<<demonym>>'/>
+<$infobox.builder.row head='Region' data='<<region>>'/>
+<$infobox.builder.row head='Specialty' data='<<specialty>>'/>
+<$infobox.builder.section head='History'/>
+<$infobox.builder.row head='Incorporation' data='<<incorporation>>'/>
+<$infobox.builder.row head='Dissolution' data='<<dissolution>>'/>
+"/>
+\end
+
+<$infobox.locality 
+flag = "None"
+nicknames = "Toontown"
+demonym = "Toons"
+region = "Tooniverse"
+specialty = "Gags"
+incorporation = "June 2nd, 2003"
+dissolution = "September 19th, 2013"
+/>
+
+!! Usage 
+Copy this template to create an infobox for a region on your page: 
+``
+<$infobox.locality 
+flag = "None"
+nicknames = "Toontown"
+demonym = "Toons"
+region = "Tooniverse"
+specialty = "Gags"
+incorporation = "June 2nd, 2003"
+dissolution = "September 19th, 2013"
+/>
+``

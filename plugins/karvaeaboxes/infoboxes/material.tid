@@ -1,0 +1,42 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/material
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.material(img:"" other_names:"None" type:"Unknown" origin:"Unknown" related:"<ul></ul>")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Other Names' data='<<other_names>>'/>
+<$infobox.builder.row head='Type' data='<<type>>'/>
+<$infobox.builder.row head='Origin' data='<<origin>>'/>
+<$infobox.builder.section head='Related Materials'/>
+<$infobox.builder.img src=<<related>>/>
+"/>
+\end
+
+<$infobox.material
+img = ""
+other_names = "Jellybeans"
+type = "Currency"
+origin = "Toontown"
+related = "<ul>
+<li>Cogbucks</li>
+</ul>"
+/>
+
+This page is the infobox widget for material infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for a material on your page:
+``
+<$infobox.material
+img = ""
+other_names = "Jellybeans"
+type = "Currency"
+origin = "Toontown"
+related = "<ul>
+<li>Cogbucks</li>
+</ul>"
+/>
+``

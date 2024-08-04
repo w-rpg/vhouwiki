@@ -1,0 +1,17 @@
+title: $:/plugins/vhou-atroph/boxbuilder/infobox/css
+creator: Natalie
+tags: [[$:/tags/Stylesheet]]
+modifier: Natalie
+
+/*Infobox*/
+.infobox {
+float: right;
+display: flex;
+width: 275px;
+}
+.infobox table {
+width: 100%;
+}
+.infobox ul {
+float: left;
+}

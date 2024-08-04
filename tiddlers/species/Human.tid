@@ -1,0 +1,22 @@
+title: Human
+creator: Natalie
+tags: all animal article category species
+color: #34A83B
+
+<$infobox.species.animal
+img = ""
+other_names = "<ul><li>Homo sapiens</li><li>Wingless [[xirai|Xira]],,(pejorative),,</li></ul>"
+origin = "Earth"
+makeup = "Carbon"
+habitat = "Variable"
+conservation = "Least Concern"
+lifespan = "70+ years"
+diet = "Omnivorous"
+activity_cycle = "Diurnal"
+temperament = "Territorial"
+related = "<ul>
+</ul>"
+/>
+''Humans'' are the dominant sapient species on Earth. Their curiosity knows no bounds, and they seek to learn about the world around them.
+
+<<pglist>>

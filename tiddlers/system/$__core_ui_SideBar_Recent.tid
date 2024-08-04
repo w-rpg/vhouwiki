@@ -1,0 +1,4 @@
+title: $:/core/ui/SideBar/Recent
+tags:
+
+<$macrocall $name="timeline" format={{$:/language/RecentChanges/DateFormat}}/>

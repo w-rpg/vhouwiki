@@ -1,0 +1,8 @@
+title: $:/plugins/vhou-atroph/vhiddly/macros/n2m
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\define num2mon(num) {{$:/plugins/vhou-atroph/vhiddly/json/monthnumbers##$num$}}
+
+The first month of the year is <<num2mon 01>>.

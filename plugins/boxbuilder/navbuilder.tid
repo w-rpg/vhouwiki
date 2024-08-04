@@ -1,0 +1,47 @@
+title: $:/plugins/vhou-atroph/boxbuilder/navbox/builder
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $navbox.builder(head:"" additional:"")
+<table class=navbox>
+<tr><th><<head>></th></tr>
+<<additional>>
+</table>
+\end
+
+\widget $navbox.builder.category(head:"")
+<tr><th><<head>></th></tr>
+\end
+
+\widget $navbox.builder.list(items:"")
+<td><<items>></td>
+\end
+
+<$navbox.builder head="The Navbox" additional="
+<$navbox.builder.category head='Demo'/>
+<$navbox.builder.list items='
+[[VhiddlyWiki]] • [[Home]]
+'/>
+"/>
+
+This page is the navbox builder widget created by Vhou-Atroph.
+
+!! Usage
+Use this widget to build navboxes! It has a couple parts:
+
+* ''navbox.builder'' - the main navbox
+* ''navbox.builder.category'' - a category within the navbox
+* ''navbox.builder.list'' - a list of tiddlers within a category in the navbox
+
+As an example, the navbox above is created with the following:
+``
+<$navbox.builder head="The Navbox" additional="
+<$navbox.builder.category head='Demo'/>
+<$navbox.builder.list items='
+[[VhiddlyWiki]] • [[Home]]
+'/>
+"/>
+``
+
+Navboxes can be transcluded on related tiddlers for easy navigation.

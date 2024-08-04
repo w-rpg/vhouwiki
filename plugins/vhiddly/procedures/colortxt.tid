@@ -1,0 +1,8 @@
+title: $:/plugins/vhou-atroph/vhiddly/procedures/colortxt
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\procedure colortxt(color text) <font color=<<color>>><<text>></font>
+
+<<colortxt purple purble>>

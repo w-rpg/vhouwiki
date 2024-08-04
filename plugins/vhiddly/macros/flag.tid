@@ -1,0 +1,8 @@
+title: $:/plugins/vhou-atroph/vhiddly/macros/flag
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\define flag(img) [img class=flag [$img$]]
+
+<<flag $:/plugins/vhou-atroph/vhiddly/dummy_image.png>>

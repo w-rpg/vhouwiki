@@ -1,0 +1,44 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/object
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.object(img:"" other_names:"None" type:"Unknown" creator:"Unknown" creation:"Unknown" owner:"Unknown" related:"<ul></ul>")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Other Names' data='<<other_names>>'/>
+<$infobox.builder.row head='Type' data='<<type>>'/>
+<$infobox.builder.row head='Creator' data='<<creator>>'/>
+<$infobox.builder.row head='Creation Date' data='<<creation>>'/>
+<$infobox.builder.row head='Current Owner' data='<<owner>>'/>
+<$infobox.builder.section head='Related Objects'/>
+<$infobox.builder.img src=<<related>>/>
+"/>
+\end
+
+<$infobox.object
+img = ""
+other_names = "The Rewritten Machine"
+type = "Time Machine"
+creator = "Dr. Surlee"
+creation = "September 19th, 2013"
+owner = "Dr. Surlee"
+related = "<ul></ul>"
+/>
+
+This page is the infobox widget for object infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for an object on your page: 
+``
+<$infobox.object
+img = ""
+other_names = "The Rewritten Machine"
+type = "Time Machine"
+creator = "Dr. Surlee"
+creation = "September 19th, 2013"
+owner = "Dr. Surlee"
+related = "<ul></ul>"
+/>
+``

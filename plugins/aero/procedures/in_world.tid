@@ -1,0 +1,11 @@
+title: $:/plugins/vhou-atroph/aero/procedures/in_world
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\procedure in_world() 
+<center><p><<colortxt red Warning!>></p><p><<colortxt "<<colour foreground>>" "This page references in-universe materials written by in-universe characters. These characters are not always correct, and may sometimes be completely false. Nothing should be taken as explicit fact unless mentioned outside this page.">></p></center>
+
+---
+\end
+<<in_world>>

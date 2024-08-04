@@ -1,0 +1,8 @@
+title: $:/plugins/vhou-atroph/vhiddly/macros/chronology
+tags: $:/tags/Global
+
+\define day-sort() [get[day]else[0]]
+
+\define chronology(num,cat) {{{ [all[tiddlers]tag[$cat$]sortsub:number<day-sort>before[$num$]] }}} <text style="color:#3c3937;">⮜⮜</text> ''$num$'' <text style="color:#3c3937;">⮞⮞</text> {{{ [all[tiddlers]tag[$cat$]sortsub:number<day-sort>after[$num$]] }}}
+
+<!--thanks to max for this macro-->
