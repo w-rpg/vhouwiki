@@ -1,0 +1,14 @@
+title: $:/vhou/mwiki
+creator: Natalie
+tags: $:/tags/Global all
+
+\define mwiki(page)
+<<extwiki "https://w-rpg.github.io/maxwiki/#" "$page$" "$page$" "rgb(255, 162, 0)">>
+\end
+
+\define mwikix(text, page)
+<<extwiki "https://w-rpg.github.io/maxwiki/#" "$page$" "$text$" "rgb(255, 162, 0)">>
+\end
+
+<<mwikix "Scourge" "Scourge">>
+<<mwikix "Zee Spofford" "Zee">>
