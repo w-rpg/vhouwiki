@@ -16,30 +16,18 @@
             }
         },
         {
-            "path": "../../output/assets/pdf/",
-            "filesRegExp": "^.*\\.pdf$",
+            "path": "../../output/assets/image/characters/artist-max",
+            "filesRegExp": "^.*\\.(?:jpg|jpeg|png|gif)$",
             "isTiddlerFile": false,
+	        "searchSubdirectories": true,
             "fields": {
                 "title": {"source": "filename"},
                 "created": {"source": "created"},
                 "modified": {"source": "modified"},
-                "type": "application/pdf",
-                "tags": [],
+                "type": "image/jpeg",
+                "tags": ["all", "image", "artist: max", "character art"],
                 "text": "",
-                "_canonical_uri": {"source": "filepath", "prefix": "assets/pdf/"}
-            }
-        },
-        {
-            "path": "../../output/assets/txt/",
-            "filesRegExp": "^.*\\.txt$",
-            "isTiddlerFile": false,
-            "fields": {
-                "title": {"source": "filename"},
-                "created": {"source": "created"},
-                "modified": {"source": "modified"},
-                "type": "text/plain",
-                "tags": [],
-                "_canonical_uri": {"source": "filepath", "prefix": "assets/text/"}
+                "_canonical_uri": { "source": "filepath", "prefix": "assets/image/characters/artist-max/" }
             }
         }
     ]
