@@ -1,0 +1,13 @@
+title: $:/config/TiddlyTools/Calendar
+type: application/json
+
+{
+    "calendar_showchanges": "no",
+    "calendar_showcreated": "no",
+    "calendar_showmodified": "no",
+    "calendar_showtiddlers": "no",
+    "calendar_showsystem": "no",
+    "calendar_showcustom": "no",
+    "events": "$:/vhou/birthdays $:/vhou/holidays [[$:/vhou/project history]]",
+    "calendar_showevents": "yes"
+}

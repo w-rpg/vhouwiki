@@ -1,8 +1,8 @@
 caption: Calendar
 created: 20200904020839440
-list-after: $:/core/ui/SideBar/Recent
 modified: 20230816184747285
 title: $:/TiddlyTools/Time/SidebarCalendar
+tags: $:/tags/SideBar
 
 \define tt_time_config() $:/config/TiddlyTools/Calendar
 
