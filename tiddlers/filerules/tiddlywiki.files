@@ -29,6 +29,21 @@
                 "text": "",
                 "_canonical_uri": { "source": "filepath", "prefix": "assets/image/characters/artist-max/" }
             }
+        },
+        {
+            "path": "../../output/assets/image/organization/artist-natalie",
+            "filesRegExp": "^.*\\.(?:jpg|jpeg|png|gif)$",
+            "isTiddlerFile": false,
+	        "searchSubdirectories": true,
+            "fields": {
+                "title": {"source": "filename"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "image/jpeg",
+                "tags": ["all", "image", "artist: natalie"],
+                "text": "",
+                "_canonical_uri": { "source": "filepath", "prefix": "assets/image/organization/artist-natalie/" }
+            }
         }
     ]
 }
