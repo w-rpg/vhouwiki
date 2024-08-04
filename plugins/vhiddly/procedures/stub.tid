@@ -1,0 +1,8 @@
+title: $:/plugins/vhou-atroph/vhiddly/procedures/stub
+creator: Natalie
+modifier: Natalie
+tags: $:/tags/Global
+
+\procedure stub() <<alert src:"This tiddler is a ''stub''. It needs more content added to it.">>
+
+<<stub>>

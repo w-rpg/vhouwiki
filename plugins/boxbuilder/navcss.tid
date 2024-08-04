@@ -1,0 +1,12 @@
+title: $:/plugins/vhou-atroph/boxbuilder/navbox/css
+creator: Natalie
+tags: [[$:/tags/Stylesheet]]
+modifier: Natalie
+
+/*Navbox*/
+.navbox {
+    width: 100%;
+}
+.navbox td {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+{
+    "description": "VhiddlyWiki",
+    "plugins": [
+        "tiddlywiki/tiddlyweb",
+		"tiddlywiki/filesystem",
+        "tiddlywiki/external-attachments",
+        "tiddlywiki/markdown"],
+    "themes": [
+        "tiddlywiki/vanilla",
+        "tiddlywiki/snowwhite"
+    ],
+    "build": {
+        "site": [
+            "--rendertiddler",
+            "$:/plugins/tiddlywiki/tiddlyweb/save/offline",
+            "index.html",
+            "text/plain"
+        ]
+    }
+}

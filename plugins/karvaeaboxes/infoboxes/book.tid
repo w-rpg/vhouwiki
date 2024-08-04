@@ -1,0 +1,41 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/book
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.book(img:"" author:"Unknown" genre:"Unknown" pagecount:"Unknown" published:"Unknown" related:"<ul></ul>)
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Author' data='<<author>>'/>
+<$infobox.builder.row head='Genre' data='<<genre>>'/>
+<$infobox.builder.row head='Page Count' data='<<pagecount>>'/>
+<$infobox.builder.row head='Publish Date' data='<<published>>'/>
+<$infobox.builder.section head='Related Books'/>
+<$infobox.builder.img src=<<related>>/>
+"/>
+\end
+
+<$infobox.book
+img = ""
+author = "Dr. Surlee"
+genre = "Nonfiction"
+pagecount = "1000"
+published = "September 19, 2013"
+related = "<ul></ul>"
+/>
+
+This page is the infobox widget for book infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for a book on your page: 
+``
+<$infobox.book
+img = ""
+author = "Dr. Surlee"
+genre = "Nonfiction"
+pagecount = "1000"
+published = "September 19, 2013"
+related = "<ul></ul>"
+/>
+``

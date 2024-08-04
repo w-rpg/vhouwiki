@@ -1,0 +1,43 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/vibes
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.vibes(baby:"0" soft:"0" clown:"0" gremlin:"0" feral:"0" cursed:"0" results:"Fail")
+<div class=vibebox>
+<table>
+<tr><th colspan=3>Vibes</th></tr>
+<tr><th>Baby</th><th>Soft</th><th>Clown</th></tr>
+<tr><td><<baby>></td><td><<soft>></td><td><<clown>></td></tr>
+<tr><th>Gremlin</th><th>Feral</th><th>Cursed</th></tr>
+<tr><td><<gremlin>></td><td><<feral>></td><td><<cursed>></td></tr>
+<tr><th colspan=3>Results</th></tr>
+<tr><td colspan=3><center><<results>></center></td></tr>
+</table>
+</div>
+\end
+
+<$infobox.vibes
+baby = 6
+soft = 10
+clown = 7
+gremlin = 2
+feral = 3
+cursed = 10
+results = Pass
+/>
+This page is the infobox widget for vibe infoboxes created by Vhou-Atroph. The vibes infobox is a special infobox that does not use the normal infobox builder.
+
+!! Usage
+Copy this template to create an infobox for a character's vibes on your page: 
+``
+<$infobox.vibes
+baby = 6
+soft = 10
+clown = 7
+gremlin = 2
+feral = 3
+cursed = 10
+results = Pass
+/>
+``

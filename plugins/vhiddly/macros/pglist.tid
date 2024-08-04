@@ -1,0 +1,16 @@
+title: $:/plugins/vhou-atroph/vhiddly/macros/pglist
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+
+\define pglist()
+
+!! List of <$count filter="[all[current]tagging[]]"/> tiddlers in tag {{!!title}}:
+---
+<$link to={{{ [all[tiddlers]tag<currentTiddler>random[1]] }}}>Visit a random page</$link>
+
+<<list-links filter:"[tag<currentTiddler>] +[sort[title]]">>
+\end
+
+<<pglist>>

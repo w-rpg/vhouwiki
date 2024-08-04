@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/vhou-atroph/karvaeaboxes",
+    "description": "Infoboxes designed specifically for the Karvaea worldbuilding project.",
+    "author": "Vhou-Atroph",
+    "version": "1.0.1",
+    "core-version": ">=5.3.0",
+    "plugin-type": "plugin",
+    "parent-plugin":"$:/plugins/vhou-atroph/boxbuilder",
+    "list": "readme license"
+}

@@ -1,0 +1,14 @@
+title: $:/plugins/vhou-atroph/aero/procedures/ref_arts
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\procedure ref_arts(list:"")
+---
+! Referenced Articles
+<ul>
+<<list>>
+</ul>
+\end
+
+<<ref_arts "<li>[[all]]</li>">>

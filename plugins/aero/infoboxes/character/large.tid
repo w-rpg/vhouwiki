@@ -1,0 +1,110 @@
+title: $:/plugins/vhou-atroph/aero/infoboxes/character/large
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $winfobox.character.large(img:"" name:"Unknown" nicknames:"None" status:"Unknown" gender:"Unknown" pronouns:"Unknown" orientation:"Unknown" species:"Unknown" age:"Unknown" birthday:"Unknown" height:"Unknown" hair:"Unknown" eye:"Unknown" birthplace:"Unknown" residence:"Unknown" occupation:"<ul></ul>" goal:"<ul></ul>" allies:"<ul></ul>" enemies:"<ul></ul>" ffood:"Unknown" lfood:"Unknown" chocolate:"Unknown" coffee:"Unknown")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.row head='Full Name' data='<<name>>'/>
+<$infobox.builder.row head='Nicknames' data='<<nicknames>>'/>
+<$infobox.builder.row head='Status' data='<<status>>'/>
+<$infobox.builder.row head='Gender' data='<<gender>>'/>
+<$infobox.builder.row head='Pronouns' data='<<pronouns>>'/>
+<$infobox.builder.row head='Orientation' data='<<orientation>>'/>
+<$infobox.builder.section head='Physical'/>
+<$infobox.builder.row head='Species' data='<<species>>'/>
+<$infobox.builder.row head='Age' data='<<age>>'/>
+<$infobox.builder.row head='Birthday' data='<<birthday>>'/>
+<$infobox.builder.row head='Height' data='<<height>>'/>
+<$infobox.builder.row head='Hair Color' data='<<hair>>'/>
+<$infobox.builder.row head='Eye Color' data='<<eye>>'/>
+<$infobox.builder.section head='History'/>
+<$infobox.builder.row head='Birthplace' data='<<birthplace>>'/>
+<$infobox.builder.row head='Residence' data='<<residence>>'/>
+<$infobox.builder.row head='Occupation' data='<<occupation>>'/>
+<$infobox.builder.row head='Goal' data='<<goal>>'/>
+<$infobox.builder.section head='Relationships'/>
+<$infobox.builder.row head='Allies' data='<<allies>>'/>
+<$infobox.builder.row head='Enemies' data='<<enemies>>'/>
+<$infobox.builder.section head='Extras'/>
+<$infobox.builder.row head='Favorite Food' data='<<ffood>>'/>
+<$infobox.builder.row head='Least Favorite Food' data='<<lfood>>'/>
+<$infobox.builder.row head='Preferred Chocolate' data='<<chocolate>>'/>
+<$infobox.builder.row head='Preferred Coffee' data='<<coffee>>'/>
+"/>
+\end
+
+<$winfobox.character.large
+img = "[img class=img-center [$:/plugins/vhou-atroph/vhiddly/dummy_image.png]]"
+name = "Flippy Doggenbottom"
+nicknames = "Flippy Toontown"
+status = "Alive"
+gender = "Male"
+pronouns = "He/Him"
+orientation = "Gay"
+species = "Toon"
+age = "Unknown"
+birthday = "Unknown"
+height = "Medium"
+hair = "Blue"
+eye = "Black"
+birthplace = "Toontown"
+residence = "Toontown"
+occupation = "<ul>
+<li>President of the Toon Council</li>
+</ul>"
+goal = "<ul>
+<li>Save Slappy Quackintosh</li>
+</ul>"
+allies = "<ul>
+<li>The Toons</li>
+</ul>"
+enemies = "<ul>
+<li>The Cogs</li>
+</ul>"
+ffood = "Cream Pie"
+lfood = "Whatever the cogs eat ig"
+chocolate = "Milk"
+coffee = "Lots of sugar, lots of milk"
+/>
+
+This page is the infobox widget for large character infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for a character on your page:
+``
+<$winfobox.character.large
+img = "[img class=img-center [$:/plugins/vhou-atroph/vhiddly/dummy_image.png]]"
+name = "Flippy Doggenbottom"
+nicknames = "Flippy Toontown"
+status = "Alive"
+gender = "Male"
+pronouns = "He/Him"
+orientation = "Gay"
+species = "Toon"
+age = "Unknown"
+birthday = "Unknown"
+height = "Medium"
+hair = "Blue"
+eye = "Black"
+birthplace = "Toontown"
+residence = "Toontown"
+occupation = "<ul>
+<li>President of the Toon Council</li>
+</ul>"
+goal = "<ul>
+<li>Save Slappy Quackintosh</li>
+</ul>"
+allies = "<ul>
+<li>The Toons</li>
+</ul>"
+enemies = "<ul>
+<li>The Cogs</li>
+</ul>"
+ffood = "Cream Pie"
+lfood = "Whatever the cogs eat ig"
+chocolate = "Milk"
+coffee = "Lots of sugar, lots of milk"
+/>
+``

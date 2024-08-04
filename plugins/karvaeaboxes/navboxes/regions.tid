@@ -1,0 +1,10 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/navboxes/regions
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+<$navbox.builder head="[[Regions|region]]" additional="
+<$navbox.builder.list items='
+[[Antiri]] • [[Aquatos]] • [[Arisaerel]] • [[Calla]] • [[Dayglare]] • [[Dolos]] • [[Dragonmaw]] • [[Drosera]] • [[Godspine]] • [[Lilieata]] • [[Lupine]] • [[Mina]] • [[Petiola]] • [[Prosos]] • [[Sanguinal]] • [[Tiptop]]
+'/>
+"/>

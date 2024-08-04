@@ -1,0 +1,34 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/magic
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.magic(glyph:"" other_names:"None" evs:"N/A" rvf:"N/A" creation:"Unknown" owner:"Unknown" related:"<ul></ul>")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<glyph>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Other Names' data='<<other_names>>'/>
+<$infobox.builder.row head='Elemental vs. Spiritual' data='<<evs>>'/>
+<$infobox.builder.row head='Rigid vs. Flowing' data='<<rvf>>'/>
+"/>
+\end
+
+<$infobox.magic
+glyph = ""
+other_names = "None"
+evs = "Elemental"
+rvf = "Flowing"
+/>
+
+This page is the infobox widget for magic infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for an object on your page:
+``
+<$infobox.magic
+glyph = ""
+other_names = "None"
+evs = "Elemental"
+rvf = "Flowing"
+/>
+``

@@ -1,0 +1,46 @@
+{
+    "directories": [
+        {
+            "path": "../../output/assets/image/",
+            "filesRegExp": "^.*\\.(?:jpg|jpeg|png|gif)$",
+            "isTiddlerFile": false,
+	        "searchSubdirectories": false,
+            "fields": {
+                "title": {"source": "filename"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "image/jpeg",
+                "tags": [],
+                "text": "",
+                "_canonical_uri": { "source": "filepath", "prefix": "assets/image/" }
+            }
+        },
+        {
+            "path": "../../output/assets/pdf/",
+            "filesRegExp": "^.*\\.pdf$",
+            "isTiddlerFile": false,
+            "fields": {
+                "title": {"source": "filename"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "application/pdf",
+                "tags": [],
+                "text": "",
+                "_canonical_uri": {"source": "filepath", "prefix": "assets/pdf/"}
+            }
+        },
+        {
+            "path": "../../output/assets/txt/",
+            "filesRegExp": "^.*\\.txt$",
+            "isTiddlerFile": false,
+            "fields": {
+                "title": {"source": "filename"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "text/plain",
+                "tags": [],
+                "_canonical_uri": {"source": "filepath", "prefix": "assets/text/"}
+            }
+        }
+    ]
+}

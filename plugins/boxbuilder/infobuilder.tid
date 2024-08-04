@@ -1,0 +1,74 @@
+title: $:/plugins/vhou-atroph/boxbuilder/infobox/builder
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.builder(title:"{{!!title}}" additional:"")
+@@.infobox
+<table>
+<tr><th colspan=2><<title>></th></tr>
+<<additional>>
+</table>
+@@
+\end
+
+\widget $infobox.builder.img(src:"")
+<tr><td colspan=2><<src>></td></tr>
+\end
+
+\widget $infobox.builder.section(head:"")
+<tr><th colspan=2><<head>></th></tr>
+\end
+
+\widget $infobox.builder.row(head:"" data:"")
+<tr><th><<head>></th><td><<data>></td></tr>
+\end
+
+<$infobox.builder additional="
+<$infobox.builder.img src = '[img class=img-center [$:/plugins/vhou-atroph/vhiddly/dummy_image.png]]'/>
+<$infobox.builder.section head = 'Section'/>
+<$infobox.builder.row head = 'par1' data = 'data'/>
+<$infobox.builder.row head = 'par2' data = 'data'/>
+"/>
+
+This page is the infobox builder widget created by Vhou-Atroph.
+
+!! Usage
+Use this widget to build infoboxes! It has a couple parts:
+
+* ''infobox.builder'' - the main infobox
+* ''infobox.builder.img'' - a special infobox section that is two data cells wide, it is best used for images
+* ''infobox.builder.section'' - a section header for any sections within an infobox
+* ''infobox.builder.row'' - a typical row in the infobox with a header and a data cell
+
+As an example, the infobox to the right is created with the following:
+``
+<$infobox.builder additional="
+<$infobox.builder.img src = '[img class=img-center [$:/plugins/vhou-atroph/vhiddly/dummy_image.png]]'/>
+<$infobox.builder.section head = 'Section'/>
+<$infobox.builder.row head = 'par1' data = 'data'/>
+<$infobox.builder.row head = 'par2' data = 'data'/>
+"/>
+``
+
+!!! Creating infobox widgets
+If desired, this infobox could be turned into its own widget for further use like so:
+``
+\widget $examplebox(img:"" par1:"" par2:"")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Section'/>
+<$infobox.builder.row head='par1' data='<<par1>>'/>
+<$infobox.builder.row head='par2' data='<<par2>>'/>
+"/>
+\end
+``
+
+With this widget, the infobox can be called to another page and have its parameters changed. Using this widget, the following would produce the infobox on this tiddler:
+``
+<$examplebox
+img = '[img class=img-center [$:/plugins/vhou-atroph/vhiddly/dummy_image.png]]'
+par1 = data
+par2 = data
+/>
+``

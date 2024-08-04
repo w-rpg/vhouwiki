@@ -1,0 +1,41 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/show
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.show(img:"" medium:"Unknown" genre:"Unknown" episodes:"Unknown" published:"Unknown" related:"<ul></ul>)
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Medium' data='<<medium>>'/>
+<$infobox.builder.row head='Genre' data='<<genre>>'/>
+<$infobox.builder.row head='Episode Count' data='<<episodes>>'/>
+<$infobox.builder.row head='Creation Date' data='<<published>>'/>
+<$infobox.builder.section head='Related Shows'/>
+<$infobox.builder.img src=<<related>>/>
+"/>
+\end
+
+<$infobox.show
+img = ""
+medium = "Anime"
+genre = "Romance/Comedy"
+episodes = "12"
+published = "September 19, 2013"
+related = "<ul></ul>"
+/>
+
+This page is the infobox widget for book infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for a book on your page: 
+``
+<$infobox.show
+img = ""
+medium = "Anime"
+genre = "Romance/Comedy"
+episodes = "12"
+published = "September 19, 2013"
+related = "<ul></ul>"
+/>
+``

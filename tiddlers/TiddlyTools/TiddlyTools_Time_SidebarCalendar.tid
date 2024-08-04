@@ -1,0 +1,16 @@
+caption: Calendar
+created: 20200904020839440
+list-after: $:/core/ui/SideBar/Recent
+modified: 20230816184747285
+title: $:/TiddlyTools/Time/SidebarCalendar
+
+\define tt_time_config() $:/config/TiddlyTools/Calendar
+
+\import $:/TiddlyTools/Time/Calendar
+\whitespace trim
+<$let here="$:/TiddlyTools/Time/SidebarCalendar"> <!-- needed for SideBar -->
+<$tiddler tiddler=<<calendar_state>>>
+<$let yyyy={{{ [{!!year}!match[]else<now "YYYY">] }}} mm={{{ [{!!month}!match[]else<now "MM">] }}}
+   calendar_size={{{ [<tt_time_config>get[sidebar_calendar_size]] ~[[100]] }}} calendar_popup_pos="belowleft">
+<div class="tt-sidebar-calendar" style={{{ [[font-size:]] [<calendar_size>] [[%;]] +[join[]] }}}>
+<$macrocall $name="showmonth" yyyy=<<yyyy>> mm=<<mm>> view="month_only"/>

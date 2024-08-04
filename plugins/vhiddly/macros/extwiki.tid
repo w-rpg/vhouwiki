@@ -1,0 +1,20 @@
+title: $:/plugins/vhou-atroph/vhiddly/macros/extwiki
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\define extwiki(url,page,display,color)
+''<a style="color:$color$;" href="$url$$page$">$display$</a>''
+\end
+
+\define wikipedia(page)
+<<extwiki "https://en.wikipedia.org/wiki/" "$page$" "$page$" "#0000F">>
+\end
+
+\define wikipediax(page,display)
+<<extwiki "https://en.wikipedia.org/wiki/" "$page$" "$display$" "#0000F">>
+\end
+
+<<extwiki "https://w-rpg.github.io/vhouwiki/#" "Erik Ferata" "Erik Ferata" purple>>
+<<wikipedia "Toontown Online">>
+<<wikipediax "Toontown Online" "Toontown">>

@@ -1,0 +1,97 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/character/small
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.character.small(img:"" name:"Unknown" nicknames:"Unknown" status:"Unknown" gender:"Unknown" pronouns:"Unknown" bias:"Unknown" species:"Unknown" age:"Unknown" birthday:"Unknown" height:"Unknown" hair:"Unknown" eye:"Unknown" birthplace:"Unknown" residence:"Unknown" occupation:"<ul></ul>" goal:"<ul></ul>" allies:"<ul></ul>" enemies:"<ul></ul>")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.row head='Full Name' data='<<name>>'/>
+<$infobox.builder.row head='Nicknames' data='<<nicknames>>'/>
+<$infobox.builder.row head='Status' data='<<status>>'/>
+<$infobox.builder.row head='Gender' data='<<gender>>'/>
+<$infobox.builder.row head='Pronouns' data='<<pronouns>>'/>
+<$infobox.builder.row head='Magical Bias' data='<<bias>>'/>
+<$infobox.builder.section head='Physical'/>
+<$infobox.builder.row head='Species' data='<<species>>'/>
+<$infobox.builder.row head='Age' data='<<age>>'/>
+<$infobox.builder.row head='Birthday' data='<<birthday>>'/>
+<$infobox.builder.row head='Height' data='<<height>>'/>
+<$infobox.builder.row head='Hair Color' data='<<hair>>'/>
+<$infobox.builder.row head='Eye Color' data='<<eye>>'/>
+<$infobox.builder.section head='History'/>
+<$infobox.builder.row head='Birthplace' data='<<birthplace>>'/>
+<$infobox.builder.row head='Residence' data='<<residence>>'/>
+<$infobox.builder.row head='Occupation' data='<<occupation>>'/>
+<$infobox.builder.row head='Goal' data='<<goal>>'/>
+<$infobox.builder.section head='Relationships'/>
+<$infobox.builder.row head='Allies' data='<<allies>>'/>
+<$infobox.builder.row head='Enemies' data='<<enemies>>'/>
+"/>
+\end
+
+<$infobox.character.small
+img = "[img class=img-center [$:/plugins/vhou-atroph/vhiddly/dummy_image.png]]"
+name = "Flippy Doggenbottom"
+nicknames = "Flippy Toontown"
+status = "Alive"
+gender = "Male"
+pronouns = "He/Him"
+bias = "<<tag [[Water Magic]]>>"
+species = "Toon"
+age = "Unknown"
+birthday = "Unknown"
+height = "Medium"
+hair = "Blue"
+eye = "Black"
+birthplace = "Toontown"
+residence = "Toontown"
+occupation = "<ul>
+<li>President of the Toon Council</li>
+</ul>"
+goal = "<ul>
+<li>Save Slappy Quackintosh</li>
+</ul>"
+allies = "<ul>
+<li>The Toons</li>
+</ul>"
+enemies = "<ul>
+<li>The Cogs</li>
+</ul>"
+/>
+
+This page is the infobox widget for small character infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for a character on your page:
+``
+<$infobox.character.small
+img = "[img class=img-center [$:/plugins/vhou-atroph/vhiddly/dummy_image.png]]"
+name = "Flippy Doggenbottom"
+nicknames = "Flippy Toontown"
+status = "Alive"
+gender = "Male"
+pronouns = "He/Him"
+bias = "<<tag [[Water Magic]]>>"
+species = "Toon"
+age = "Unknown"
+birthday = "Unknown"
+height = "Medium"
+hair = "Blue"
+eye = "Black"
+birthplace = "Toontown"
+residence = "Toontown"
+occupation = "<ul>
+<li>President of the Toon Council</li>
+</ul>"
+goal = "<ul>
+<li>Save Slappy Quackintosh</li>
+</ul>"
+allies = "<ul>
+<li>The Toons</li>
+</ul>"
+enemies = "<ul>
+<li>The Cogs</li>
+</ul>"
+/>
+``

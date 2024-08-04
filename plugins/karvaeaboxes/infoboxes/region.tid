@@ -1,0 +1,33 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/region
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.region(img:"" nicknames:"None" largest_city:"None" demonym:"None")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Nicknames' data='<<nicknames>>'/>
+<$infobox.builder.row head='Largest City' data='<<largest_city>>'/>
+<$infobox.builder.row head='Demonym' data='<<demonym>>'/>
+"/>
+\end
+
+<$infobox.region
+nicknames = "Toontown"
+largest_city = "Toontown Central"
+demonym = "Toon"
+/>
+
+This page is the infobox widget for region infoboxes created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for a region on your page: 
+``
+<$infobox.region
+img = ""
+nicknames = "Toontown"
+largest_city = "Toontown Central"
+demonym = "Toon"
+/>
+``

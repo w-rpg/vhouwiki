@@ -1,0 +1,48 @@
+title: $:/plugins/vhou-atroph/karvaeaboxes/infoboxes/species/plant
+creator: Natalie
+tags: [[$:/tags/Global]]
+modifier: Natalie
+
+\widget $infobox.species.plant(img:"" other_names:"None" origin:"Unknown" makeup:"Unknown" habitat:"Unknown" conservation:"Unknown" related:"<ul></ul>")
+<$infobox.builder additional="
+<$infobox.builder.img src=<<img>>/>
+<$infobox.builder.section head='Information'/>
+<$infobox.builder.row head='Other Names' data=<<other_names>>/>
+<$infobox.builder.row head='Origin' data=<<origin>>/>
+<$infobox.builder.row head='Biochemical Makeup' data=<<makeup>>/>
+<$infobox.builder.row head='Habitat' data=<<habitat>>/>
+<$infobox.builder.row head='Conservation Status' data=<<conservation>>/>
+<$infobox.builder.section head='Related Species'/>
+<$infobox.builder.img src=<<related>>/>
+"/>
+\end
+
+<$infobox.species.plant
+img = ""
+other_names = "Laff-o-dil"
+origin = "Toontown"
+makeup = "Ink and paper"
+habitat = "Toon Estates"
+conservation = "Least Concern"
+related = "<ul>
+<li>Lazy Daisy</li>
+</ul>"
+/>
+
+This page is the infobox widget for plant species created by Vhou-Atroph.
+
+!! Usage
+Copy this template to create an infobox for a species on your page:
+``
+<$infobox.species.plant
+img = ""
+other_names = "Laff-o-dil"
+origin = "Toontown"
+makeup = "Ink and paper"
+habitat = "Toon Estates"
+conservation = "Least Concern"
+related = "<ul>
+<li>Lazy Daisy</li>
+</ul>"
+/>
+``
