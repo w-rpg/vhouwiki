@@ -11,8 +11,6 @@ This is a wiki for half of the ''WRPG''. You can find the other half at <<mwikix
 <center>
 <h2>Characters</h2>
 </center>
-<center>
 <div style="float: left;">{{$:/vhou/mainchars}}</div>
 <div style="float: right;">{{$:/vhou/majorchars}}</div>
 <div style="float: left;">{{$:/vhou/minorchars}}</div>
-</center>
