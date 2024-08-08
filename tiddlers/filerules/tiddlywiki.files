@@ -71,7 +71,6 @@
                 "modified": {"source": "modified"},
                 "type": "application/json",
                 "tags": ["all", "txt"],
-                "text": "",
                 "_canonical_uri": { "source": "filepath", "prefix": "assets/json/" }
             }
         }
