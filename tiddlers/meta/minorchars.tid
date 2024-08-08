@@ -2,29 +2,31 @@ title: $:/vhou/minorchars
 tags: all
 creator: Natalie
 
-<h2> MINOR CHARACTERS</h2>
-<ul>
-<li>[[Alexander Smirnov]]</li>
-<li>[[Amaros Ferata]]</li>
-<li>[[Bobby Richman]]</li>
-<li>[[Daniella Marie]]</li>
-<li>[[Drakadei Ulvectus]]</li>
-<li>[[Eugene Ferata]]</li>
-<li>[[Felipe (French, Screaming Sarcophagus)]]</li>
-<li>[[Gerald (Eastern European Chaos Checking Coffin)]]</li>
-<li>[[Gregory Ferata]]</li>
-<li>[[Ivan Petrov]]</li>
-<li>[[Jeannette Ferata]]</li>
-<li>[[Jessica Kyivetas]]</li>
-<li>[[Joshua Diaz]]</li>
-<li>[[Galexkra Igfurma]]</li>
-<li>[[Galysa Zomfest]]</li>
-<li>[[Ghilyrexos Lireodex]]</li>
-<li>[[Gus Purple Long-Claws]]</li>
-<li>[[Maphailet Krusvex]]</li>
-<li>[[Mark Franke]]</li>
-<li>[[Rikelmarchelopik Kyivetas]]</li>
-<li>[[Sophia Agapov]]</li>
-<li>[[The Foot]]</li>
-<li>[[Zark Franke]]</li>
-</ul>
+<div style="height: 250px; overflow: scroll; border: 2px solid gray;">
+    <center><h3> MINOR CHARACTERS</h3></center>
+    <ul>
+        <li>[[Alexander Smirnov]]</li>
+        <li>[[Amaros Ferata]]</li>
+        <li>[[Bobby Richman]]</li>
+        <li>[[Daniella Marie]]</li>
+        <li>[[Drakadei Ulvectus]]</li>
+        <li>[[Eugene Ferata]]</li>
+        <li>[[Felipe (French, Screaming Sarcophagus)]]</li>
+        <li>[[Gerald (Eastern European Chaos Checking Coffin)]]</li>
+        <li>[[Gregory Ferata]]</li>
+        <li>[[Ivan Petrov]]</li>
+        <li>[[Jeannette Ferata]]</li>
+        <li>[[Jessica Kyivetas]]</li>
+        <li>[[Joshua Diaz]]</li>
+        <li>[[Galexkra Igfurma]]</li>
+        <li>[[Galysa Zomfest]]</li>
+        <li>[[Ghilyrexos Lireodex]]</li>
+        <li>[[Gus Purple Long-Claws]]</li>
+        <li>[[Maphailet Krusvex]]</li>
+        <li>[[Mark Franke]]</li>
+        <li>[[Rikelmarchelopik Kyivetas]]</li>
+        <li>[[Sophia Agapov]]</li>
+        <li>[[The Foot]]</li>
+        <li>[[Zark Franke]]</li>
+    </ul>
+</div>
