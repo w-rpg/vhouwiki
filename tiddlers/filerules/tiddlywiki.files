@@ -46,6 +46,21 @@
             }
         },
         {
+            "path": "../../output/assets/image/meme",
+            "filesRegExp": "^.*\\.(?:jpg|jpeg|png|gif)$",
+            "isTiddlerFile": false,
+	        "searchSubdirectories": true,
+            "fields": {
+                "title": {"source": "filename"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "image/jpeg",
+                "tags": ["all", "image", "meme", "artist: natalie"],
+                "text": "",
+                "_canonical_uri": { "source": "filepath", "prefix": "assets/image/meme/" }
+            }
+        },
+        {
             "path": "../../output/assets/json",
             "filesRegExp": "^.*\\.json$",
             "isTiddlerFile": false,
