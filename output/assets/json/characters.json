@@ -1,0 +1,102 @@
+{
+    "charoosama": {
+        "name": {
+            "first": "Charoosama",
+            "mid": null,
+            "last": "the Nocturnal Ravager"
+        },
+        "status": "Alive",
+        "gender": "Metal",
+        "pronouns": null,
+        "species": "Merimr",
+        "birthday": {
+            "m": "2",
+            "d": "29",
+            "y": "1564"
+        },
+        "vibes": {
+            "baby": 3,
+            "soft": 4,
+            "clown": 6,
+            "gremlin": 9,
+            "feral": 9,
+            "cursed": 7,
+            "result": false
+        }
+    },
+    "clark franke": {
+        "name": {
+            "first": "Clark",
+            "mid": "Amadeus",
+            "last": "Franke"
+        },
+        "status": "Alive",
+        "gender": "Clark",
+        "pronouns": ["He/Him"],
+        "species": "Human",
+        "birthday": {
+            "m": "11",
+            "d": "12",
+            "y": "1977"
+        },
+        "vibes": {
+            "baby": 10,
+            "soft": 7,
+            "clown": 10,
+            "gremlin": 6,
+            "feral": 2,
+            "cursed": 5,
+            "result": true
+        }
+    },
+    "emily ferata": {
+        "name": {
+            "first": "Emily",
+            "mid": "Leah",
+            "last": "Ferata"
+        },
+        "status": "Alive",
+        "gender": "Nerd",
+        "pronouns": ["She/Her"],
+        "species": "Human",
+        "birthday": {
+            "m": "8",
+            "d": "31",
+            "y": "1998"
+        },
+        "vibes": {
+            "baby": 4,
+            "soft": 7,
+            "clown": 3,
+            "gremlin": 8,
+            "feral": 9,
+            "cursed": 2,
+            "result": true
+        }
+    },
+    "erik ferata": {
+        "name": {
+            "first": "Erik",
+            "mid": "Cameron",
+            "last": "Ferata"
+        },
+        "status": "Alive",
+        "gender": "Himbo",
+        "pronouns": ["He/Him"],
+        "species": "Human",
+        "birthday": {
+            "m": "8",
+            "d": "31",
+            "y": "1998"
+        },
+        "vibes": {
+            "baby": 10,
+            "soft": 6,
+            "clown": 3,
+            "gremlin": 0,
+            "feral": 9,
+            "cursed": 7,
+            "result": true
+        }
+    }
+}

@@ -44,6 +44,21 @@
                 "text": "",
                 "_canonical_uri": { "source": "filepath", "prefix": "assets/image/organization/artist-natalie/" }
             }
+        },
+        {
+            "path": "../../output/assets/json",
+            "filesRegExp": "^.*\\.json$",
+            "isTiddlerFile": false,
+	        "searchSubdirectories": true,
+            "fields": {
+                "title": {"source": "filename"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "application/json",
+                "tags": ["all", "txt"],
+                "text": "",
+                "_canonical_uri": { "source": "filepath", "prefix": "assets/json/" }
+            }
         }
     ]
 }
