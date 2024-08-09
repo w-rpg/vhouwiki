@@ -8,9 +8,18 @@ creator: Natalie
 <br>
 This is a wiki for half of the ''WRPG''. You can find the other half at <<mwikix "w-rpg.github.io/maxwiki" "Home">>.
 
+<div style="display: inline-block;">
+    <center>
+    <h2>Characters</h2>
+    </center>
+    <div style="float: left;">{{$:/vhou/mainchars}}</div>
+    <div style="float: right;">{{$:/vhou/majorchars}}</div>
+    <div style="float: left;">{{$:/vhou/minorchars}}</div>
+</div>
+
+<div>
 <center>
-<h2>Characters</h2>
+<h2>Species</h2>
 </center>
-<div style="float: left;">{{$:/vhou/mainchars}}</div>
-<div style="float: right;">{{$:/vhou/majorchars}}</div>
-<div style="float: left;">{{$:/vhou/minorchars}}</div>
+<div style="relative">{{$:/vhou/creatures}}</div>
+</div>

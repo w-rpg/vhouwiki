@@ -46,6 +46,21 @@
             }
         },
         {
+            "path": "../../output/assets/image/species/artist-natalie",
+            "filesRegExp": "^.*\\.(?:jpg|jpeg|png|gif)$",
+            "isTiddlerFile": false,
+	        "searchSubdirectories": true,
+            "fields": {
+                "title": {"source": "filename"},
+                "created": {"source": "created"},
+                "modified": {"source": "modified"},
+                "type": "image/jpeg",
+                "tags": ["all", "image", "artist: natalie", "species art"],
+                "text": "",
+                "_canonical_uri": { "source": "filepath", "prefix": "assets/image/species/artist-natalie/" }
+            }
+        },
+        {
             "path": "../../output/assets/image/meme",
             "filesRegExp": "^.*\\.(?:jpg|jpeg|png|gif)$",
             "isTiddlerFile": false,

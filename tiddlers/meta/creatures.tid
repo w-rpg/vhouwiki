@@ -1,0 +1,50 @@
+title: $:/vhou/creatures
+tags: all
+creator: Natalie
+
+<center>
+<table style="">
+<tr>
+<th colspan=3>CREATURES</th>
+</tr>
+<tr>
+<a href="#Human"><td>
+<div style="height: 200px; width: 200px;"><center><img src="assets/image/characters/artist-max/Erik Ferata/Erik_Cameron_Ferata.png" style="max-height: 180px;"/></center></div>
+<br>
+<center>[[Human]]</center>
+</td></a>
+<a href="#Xira"><td>
+<div style="height: 200px; width: 200px;"><center><img src="assets/image/characters/artist-max/Xavier Kyivetas/Xavier_Hyulex_Kyivetas.png" style="max-height: 180px;"/></center></div>
+<br>
+<center>[[Xira]]</center>
+</td></a>
+<a href="#Merimr"><td rowspan=2>
+<div style="height: 200px; width: 400px;"><center><img src="assets/image/characters/artist-max/Charoosama/Charoosama.png" style="height: 180px; width: 100%;"/></center></div>
+<br>
+<center>[[Merimr]]</center>
+</td></a>
+</tr>
+<tr>
+<a href="#Vaas'Kibatu"><td rowspan=2>
+<div style="height: 200px; width: 400px;"><center><img src="assets/image/species/artist-natalie/vaas-kibatu/vaas-kibatu.png" style="max-height: 180px;"/></center></div>
+<br>
+<center>[[Vaas'Kibatu]]</center>
+</td></a>
+<a href="#Vhou-Serpa"><td>
+<div style="height: 200px; width: 200px;"><center><img src="assets/image/species/artist-natalie/serpa/serpa.png" style="max-height: 180px;"/></center></div>
+<br>
+<center>[[Vhou-Serpa]]</center>
+</td></a>
+<a href="#Vhou-Beheto"><td>
+<div style="height: 200px; width: 200px;"><center><img src="assets/image/species/artist-natalie/beheto/beheto.png" style="max-height: 180px;"/></center></div>
+<br>
+<center>[[Vhou-Beheto]]</center>
+</td></a>
+<a href="#Vhou-Atroph"><td>
+<div style="height: 200px; width: 200px;"><center><img src="assets/image/species/artist-natalie/atroph/atroph.png" style="height: 180px;"/></center></div>
+<br>
+<center>[[Vhou-Atroph]]</center>
+</td></a>
+</tr>
+</table>
+</center>
